@@ -1,10 +1,7 @@
 package main;
 
 import java.awt.Color;
-import java.awt.GridBagLayout;
-
 import javax.swing.JFrame;
-import javax.swing.JPanel;
 
 public class UI {
  
@@ -33,7 +30,7 @@ public class UI {
         
         window.getContentPane().setBackground(Color.BLACK);
 
-        GameMap map = new GameMap();
+        Board map = new Board();
         map.setBounds(100, 100, 700, 700);
         window.add(map);
     

@@ -1,14 +1,12 @@
 package main;
 
 import java.awt.Color;
-import java.awt.Label;
-import java.util.Vector;
 
 import javax.swing.JPanel;
 
-public class GameMap extends JPanel {
+public class Board extends JPanel {
 
-    public  GameMap(){
+    public Board(){
     
         this.setLayout(null);
         this.setDoubleBuffered(true);

@@ -1,8 +1,6 @@
 package main;
 
 import java.awt.*;
-import java.util.HashMap;
-
 import javax.swing.*;
 
 class HexagonPanel extends JPanel {
