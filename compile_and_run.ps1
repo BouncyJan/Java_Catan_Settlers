@@ -1,2 +1,2 @@
 javac -d bin src/main/*.java
-java -cp bin main.Main
+java -cp bin main.GameManager
