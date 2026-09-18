@@ -34,10 +34,6 @@ public class GameMap extends JPanel {
 
             HexagonPanel hex = new HexagonPanel(radius, tile.color);
             hex.setText(Integer.toString(tile.value));
-            /* Label label = new Label(Integer.toString(tile.value));
-            label.setLocation(20, 20);
-            label.setBackground(null);
-            hex.add(label); */
             hex.setBounds(x + 50, y + 50, hexWidth, hexHeight); // +50 for board padding
             this.add(hex);
         }
